@@ -1,16 +1,32 @@
-﻿using System.Windows;
+﻿using Hemuppgift_WPFtemplate.Pages;
+using System.Windows;
 
 namespace Hemuppgift_WPFtemplate
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
-        //HEJ
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void GridWindow_Click(object sender, RoutedEventArgs e)
+        {
+            GridWin grid = new Pages.GridWin();
+            grid.Show();
+
+        }
+
+        private void StackPanel_Click(object sender, RoutedEventArgs e)
+        {
+            StackPanel stackPanel = new StackPanel();
+            stackPanel.Show();
+        }
+        private void WrapPanel_Click(object sender, RoutedEventArgs e)
+        {
+            WrapPanel wrapPanel = new WrapPanel();
+            wrapPanel.Show();
         }
     }
 }
