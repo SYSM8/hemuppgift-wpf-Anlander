@@ -18,6 +18,6 @@
         <Button Content="Grid" Click="GridWindow_Click"/>
         <Button Content="StackPanel" Grid.Column="2" Click="StackPanel_Click" />
         <Button Content="WrapPanel" Grid.Row="1" Click="WrapPanel_Click" />
-        <Button Content="DeckPanel" Grid.Row="1" Grid.Column="1"/>
+        <Button Content="DeckPanel" Grid.Row="1" Grid.Column="1" Click="DockPanel_Click"/>
     </Grid>
 </Window>
